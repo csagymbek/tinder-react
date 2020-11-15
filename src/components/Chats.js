@@ -13,7 +13,7 @@ export default function Chats() {
       <Chat
         name="Bella"
         message="hi love 🖤"
-        timestamp="40 seconds ago"
+        timestamp="40 minutes ago"
         profilePic="https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-15/e35/47690460_452390461957884_4650519503071951662_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=100&_nc_ohc=2jmIyoTKZ4MAX83mao6&tp=18&oh=eccf7b16f22a13a846d2c03ff642fd80&oe=5FDB1F23"
       />
       <Chat
@@ -27,6 +27,12 @@ export default function Chats() {
         message="hey what are u up to, cutie 🙂"
         timestamp="3 days ago"
         profilePic="https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/97289071_721495895263491_7776603772220426429_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=103&_nc_ohc=61L4jXyoG6AAX_O-r7R&tp=19&oh=3d333adf69403bcfb027ef5d13980350&oe=5FD8D52C"
+      />
+      <Chat
+        name="Aliyah"
+        message="Ты тут?"
+        timestamp="3 minutes ago"
+        profilePic="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/22528040_1707231549350698_8723918333928722672_n.jpg?_nc_cat=107&ccb=2&_nc_sid=85a577&_nc_ohc=3fPRmqAQ0mUAX-Cyvpy&_nc_ht=scontent-sjc3-1.xx&oh=ae96be1d9b5bac85d173a9220d035363&oe=5FD686A7"
       />
     </div>
   );

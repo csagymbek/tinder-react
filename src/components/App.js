@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import TinderCards from "./TinderCards";
 import SwipeButtons from "./SwipeButtons";
 import Chats from "./Chats";
+import ChatScreen from "./ChatScreen";
 
 export default function App() {
   return (
@@ -12,21 +13,21 @@ export default function App() {
       <Router>
         {/* Header  */}
         <Switch>
-          <Route path="/" exact>
+          <Route path="/chat/:person">
+            <Header backButton="/chat" />
+            <ChatScreen />
+          </Route>
+          <Route path="/chat">
+            <Header backButton="/" />
+            <Chats />
+          </Route>
+          <Route path="/">
             {/* Tinder Cards  */}
             <Header />
             <TinderCards />
             {/* Swipe buttons  */}
             <SwipeButtons />
             {/* Buttons  */}
-          </Route>
-          <Route path="/chat">
-            <Header backButton="/" />
-            <Chats />
-          </Route>
-          <Route path="/chat">
-            <Header backButton="/chat" />
-            <Chats />
           </Route>
         </Switch>
         {/* Chat screen  */}
